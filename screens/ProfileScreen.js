@@ -1,6 +1,6 @@
-import React from "react";
-import { View, Text } from "react-native";
-import ProfileForm from "../components/ProfileForm";
+import React, { useState } from 'react';
+import { View, Text } from 'react-native';
+import ProfileForm from '../components/ProfileForm';
 
 export default function ProfileScreen() {
   const [profile, setProfile] = useState(null);
